@@ -3,11 +3,14 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+description: "Curriculum Vitae of Dr. Syed Muntasir MAMUN - Chief Innovation Officer & Director General at Ministry of Foreign Affairs, Bangladesh."
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
+
+[📄 Download Full CV (PDF)](/files/2025_January_CV_SMM_194.pdf){: .btn .btn--primary}
 
 # Dr. Syed Muntasir MAMUN
 Chief Innovation Officer & Director General  
@@ -74,7 +77,7 @@ Skills
 ## Publications
 ------
 * [View on Google Scholar](https://scholar.google.com/citations?hl=en&user=BhhasDQAAAAJ)
-* [View on Academia.edu](https://oxford.academia.edu/SyedMamun)
+* [View on Academia.edu](https://syedmamun.academia.edu/)
 * Book: "Blockchain: Gaming & Collusion - A Reading in Political Economy" ([Amazon](https://www.amazon.com/author/syedmuntasir))
 
 ## Talks & Presentations
@@ -88,7 +91,7 @@ Skills
 ## Professional Profiles
 ------
 * [LinkedIn](https://linkedin.com/in/syed11muntasir)
-* [Academia.edu](https://oxford.academia.edu/SyedMamun)
+* [Academia.edu](https://syedmamun.academia.edu/)
 * [Google Scholar](https://scholar.google.com/citations?hl=en&user=BhhasDQAAAAJ)
 * [ORCID](https://orcid.org/0000-0001-6845-2853)
 * [Amazon Author Page](https://www.amazon.com/author/syedmuntasir)

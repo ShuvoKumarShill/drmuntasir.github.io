@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "About Dr. Syed Muntasir MAMUN"
-excerpt: "About me"
+excerpt: "Dr. Syed Muntasir MAMUN - Chief Innovation Officer & Director General of International Trade, Investment & Technology at Ministry of Foreign Affairs, Bangladesh. Expert in South and East Asian politics, AI innovation, and economic diplomacy."
+description: "Dr. Syed Muntasir MAMUN - Chief Innovation Officer & Director General of International Trade, Investment & Technology at Ministry of Foreign Affairs, Bangladesh. Expert in South and East Asian politics, AI innovation, and economic diplomacy."
 author_profile: true
 redirect_from: 
   - /about/
@@ -30,13 +31,13 @@ Dr. Syed Muntasir MAMUN is the Chief Innovation Officer and Director General of 
 ## Academic Work & Research
 
 * Visit my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=BhhasDQAAAAJ) for academic publications
-* View my research on [Academia.edu](https://oxford.academia.edu/SyedMamun)
+* View my research on [Academia.edu](https://syedmamun.academia.edu/)
 * Check my [ORCID](https://orcid.org/0000-0001-6845-2853) for comprehensive research activities
 
 ## Connect
 
 * [LinkedIn](https://linkedin.com/in/syed11muntasir)
-* [Academia.edu](https://oxford.academia.edu/SyedMamun)
+* [Academia.edu](https://syedmamun.academia.edu/)
 * [Twitter/X](https://x.com/artillery11)
 * [YouTube Channel](https://youtube.com/user/mamunmuntasir)
 * [Amazon Author Page](https://www.amazon.com/author/syedmuntasir)

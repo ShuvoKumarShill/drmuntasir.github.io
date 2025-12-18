@@ -3,6 +3,7 @@ layout: archive
 title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
+description: "Talks, presentations, and keynote speeches by Dr. Syed Muntasir MAMUN on economic diplomacy, AI innovation, international trade, and maritime affairs."
 ---
 
 {% include base_path %}

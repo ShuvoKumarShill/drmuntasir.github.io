@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+description: "Academic publications, books, policy papers, and research by Dr. Syed Muntasir MAMUN including Blockchain: Gaming & Collusion and other works on political economy and diplomacy."
 ---
 
 {% include base_path %}
