@@ -19,15 +19,17 @@ He is a recognized pioneer in **AI-driven innovation policy**, **neural-network 
 
 ## Key Achievements
 
-🏛️ **Founder** of the **first AI Lab** in the Ministry of Foreign Affairs — advancing public-sector AI capability and digital diplomacy  
+<i class="fas fa-building"></i> **Founder** of the **first AI Lab** in the Ministry of Foreign Affairs — advancing public-sector AI capability and digital diplomacy  
 
-🌍 **Architect of the "Zero Digital Divide" Initiative**, launched at **UNGA 2023**, promoting equitable access to AI and emerging technologies worldwide  
+<i class="fas fa-globe"></i> **Architect of the "Zero Digital Divide" Initiative**, launched at **UNGA 2023**, promoting equitable access to AI and emerging technologies worldwide  
 
-📚 **Author of** *Blockchain: Gaming & Collusion – A Reading in Political Economy* — exploring political economy dimensions of decentralized technologies  
+<i class="fas fa-book"></i> **Author of** *Blockchain: Gaming & Collusion – A Reading in Political Economy* — exploring political economy dimensions of decentralized technologies  
 
-🎓 **Visiting Scholar**, University of Oxford (Saïd Business School & China Centre, St. Hugh's College)  
+<i class="fas fa-university"></i> **Visiting Scholar**, University of Oxford (Saïd Business School & China Centre, St. Hugh's College)  
 
-🎤 **TEDx Speaker** on innovation and transformation in diplomatic services
+<i class="fas fa-microphone"></i> **TEDx Speaker** on innovation and transformation in diplomatic services
+
+<i class="fas fa-file-alt"></i> **Prolific Researcher** with **70+ publications** on AI governance, quantum computing, digital diplomacy, blockchain economics, and innovation policy — [View Publications](/publications/)
 
 ---
 
