@@ -127,7 +127,7 @@ atom_feed:
   path: # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification:
+google_site_verification: "google720e973978837b70"
 bing_site_verification:
 alexa_site_verification:
 yandex_site_verification:
@@ -221,14 +221,12 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false # Disabled: collection is empty, using manual page instead
   portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
-    permalink: /:collection/:path/
+    output: false # Disabled: collection is empty, using manual page instead
 
 # These settings control how pages and collections are included in the site
 defaults:
