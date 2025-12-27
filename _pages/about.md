@@ -47,11 +47,11 @@ He is a recognized pioneer in **AI-driven innovation policy**, **neural-network 
 
 ## Current Initiatives
 
-* 🚀 Leading the **International Trade, Investment and Technology Wing** for AI-led innovation
-* 🤖 Established the **first Neural Network AI Lab** within a sovereign foreign office
-* 💻 Engineered **full-stack AI-driven service architecture** for 81 Bangladeshi missions worldwide
-* 🌐 Launched the **e-Quality Centre for Zero Digital Divide** at UNGA 2023
-* 📊 Hosting **Bangladesh Business Summit 2023, 2025** and **Economic Diplomacy Week 2022**
+* <i class="fas fa-rocket"></i> Leading the **International Trade, Investment and Technology Wing** for AI-led innovation
+* <i class="fas fa-robot"></i> Established the **first Neural Network AI Lab** within a sovereign foreign office
+* <i class="fas fa-laptop-code"></i> Engineered **full-stack AI-driven service architecture** for 81 Bangladeshi missions worldwide
+* <i class="fas fa-globe"></i> Launched the **e-Quality Centre for Zero Digital Divide** at UNGA 2023
+* <i class="fas fa-chart-line"></i> Hosting **Bangladesh Business Summit 2023, 2025** and **Economic Diplomacy Week 2022**
 
 ---
 
@@ -66,16 +66,16 @@ He is a recognized pioneer in **AI-driven innovation policy**, **neural-network 
 
 ## Distinctions & Honors
 
-🏆 **Rector's Medal** — Bangladesh Public Administration Training Center (*Best All-Round Civil Service Officer*)  
-🎖️ **Foreign Service Commendation** — Ministry of Foreign Affairs, Indonesia  
-🎓 **Valedictorian** — Foreign Service Specialized Course & Mid-Career Diplomats Program  
-🌐 **UNGA 2023 Recognition** — Lead architect of the *e-Quality Centre for Zero Digital Divide*
+<i class="fas fa-trophy"></i> **Rector's Medal** — Bangladesh Public Administration Training Center (*Best All-Round Civil Service Officer*)  
+<i class="fas fa-medal"></i> **Foreign Service Commendation** — Ministry of Foreign Affairs, Indonesia  
+<i class="fas fa-graduation-cap"></i> **Valedictorian** — Foreign Service Specialized Course & Mid-Career Diplomats Program  
+<i class="fas fa-globe-americas"></i> **UNGA 2023 Recognition** — Lead architect of the *e-Quality Centre for Zero Digital Divide*
 
 ---
 
 ## Connect
 
-* 📧 [syedmuntasir@mofa.gov.bd](mailto:syedmuntasir@mofa.gov.bd)
+* <i class="fas fa-envelope"></i> [syedmuntasir@mofa.gov.bd](mailto:syedmuntasir@mofa.gov.bd)
 * [LinkedIn](https://linkedin.com/in/syed11muntasir)
 * [Academia.edu](https://oxford.academia.edu/SyedMamun)
 * [Twitter/X](https://x.com/artillery11)
