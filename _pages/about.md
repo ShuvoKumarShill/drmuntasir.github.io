@@ -80,6 +80,19 @@ He is a recognized pioneer in **AI-driven innovation policy**, **neural-network 
 
 ## <i class="fas fa-file-alt"></i> Featured Publications
 
+{% if site.data.publications %}
+<div class="notice--success" style="font-size: 0.85em; padding: 0.5em 1em;">
+  <p style="margin: 0;"><i class="fas fa-sync-alt"></i> <strong>Auto-updated weekly</strong> from <a href="https://syedmamun.academia.edu/research">Academia.edu</a> | Last: {{ site.data.publications.last_updated }}</p>
+</div>
+
+{% for pub in site.data.publications.all_publications limit:5 %}
+<div style="margin-bottom: 1.5em;">
+  <strong><i class="fas fa-file-pdf" style="color: #d32f2f;"></i> <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title | truncate: 100 }}</a></strong><br>
+  <small><i class="fas fa-user"></i> {{ pub.authors | join: ", " }} | <i class="fas fa-folder"></i> {{ pub.section }}</small>
+</div>
+{% endfor %}
+{% else %}
+<!-- Fallback if YAML data not available -->
 **<i class="fas fa-atom"></i> [Quantum Computing 2025: State of Play](https://www.academia.edu/attachments/125804167/download_file?s=portfolio)**  
 Analysis of quantum computing across geopolitical, security, and economic paradigms. [PDF](/files/PDF/Quantum Computing 2025: State of Play across Geopolitical, Security, and Economic Paradigms.pdf)
 
@@ -94,8 +107,9 @@ Blockchain and AI technologies for emerging markets. [PDF](/files/PDF/Institutio
 
 **<i class="fas fa-project-diagram"></i> [Fractal Algebra: Foundations and Applications](https://www.academia.edu/attachments/125213035/download_file?s=portfolio)**  
 Neural architectures and applications in computing and security. [PDF](/files/PDF/Fractal Algebra: Foundations, Neural Architectures, and Applications in Computing and Security A CHAPEAUX NOTE Fractal Algebra: Foundations, Neural Architectures, and Applications in Computing and Security A CHAPEAUX NOTE.pdf)
+{% endif %}
 
-<p><a href="/publications/" class="btn btn--primary"><i class="fas fa-arrow-right"></i> View All Publications (70+)</a></p>
+<p><a href="/publications/" class="btn btn--primary"><i class="fas fa-arrow-right"></i> View All Publications ({{ site.data.publications.total_publications | default: "70+" }})</a></p>
 
 ---
 

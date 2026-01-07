@@ -29,13 +29,25 @@ description: "Comprehensive academic publications, books, policy papers, and res
 
 ## <i class="fas fa-star"></i> Recent Publications
 
-{% for pub in site.data.publications.all_publications limit:20 %}
-<div style="margin-bottom: 1.5em;">
-  <strong><a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a></strong><br>
-  <em>{{ pub.authors | join: ", " }}</em><br>
-  <small><i class="fas fa-folder"></i> {{ pub.section }}</small>
-</div>
+<div class="grid">
+{% for pub in site.data.publications.all_publications limit:12 %}
+  <div class="archive__item" style="margin-bottom: 1.5em; padding: 1em; border: 1px solid #e0e0e0; border-radius: 8px; background: #fafafa;">
+    <article>
+      <div class="archive__item-body">
+        <h3 class="archive__item-title" style="margin-top: 0; font-size: 1.1em;">
+          <a href="{{ pub.url }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf" style="color: #d32f2f;"></i> {{ pub.title }}</a>
+        </h3>
+        <p class="archive__item-excerpt" style="margin: 0.5em 0;">
+          <i class="fas fa-user"></i> <em>{{ pub.authors | join: ", " }}</em>
+        </p>
+        <p style="margin: 0;">
+          <small><i class="fas fa-folder"></i> <strong>{{ pub.section }}</strong></small>
+        </p>
+      </div>
+    </article>
+  </div>
 {% endfor %}
+</div>
 
 <p style="text-align: center; margin-top: 2em;">
   <a href="https://syedmamun.academia.edu/research" class="btn btn--primary"><i class="fas fa-external-link-alt"></i> View All Publications on Academia.edu</a>
