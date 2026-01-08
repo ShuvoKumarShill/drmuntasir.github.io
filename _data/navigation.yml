@@ -26,6 +26,9 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
+  - title: "Contact"
+    url: /contact/
+
   # CV links removed - full publication list available in Publications page
   # - title: "CV"
   #   url: /cv/
