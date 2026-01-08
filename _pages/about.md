@@ -72,9 +72,21 @@ He is a recognized pioneer in **AI-driven innovation policy**, **neural-network 
 </div>
 
 {% for pub in site.data.publications.all_publications limit:5 %}
-<div style="margin-bottom: 1.5em;">
+<div style="margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid #eee;">
   <strong><i class="fas fa-file-pdf" style="color: #d32f2f;"></i> <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title | truncate: 100 }}</a></strong><br>
   <small><i class="fas fa-user"></i> {{ pub.authors | join: ", " }} | <i class="fas fa-folder"></i> {{ pub.section }}</small>
+  
+  {% if pub.abstract %}
+  <p style="margin: 0.5em 0; font-size: 0.9em; line-height: 1.4; color: #555;">
+    {{ pub.abstract | truncatewords: 30 }}
+  </p>
+  {% endif %}
+  
+  {% if pub.key_insight %}
+  <p style="margin: 0; font-size: 0.85em; color: #2e7d32; background: #e8f5e9; padding: 0.3em 0.5em; border-radius: 4px; display: inline-block;">
+    <strong><i class="fas fa-lightbulb"></i> Key Insight:</strong> {{ pub.key_insight }}
+  </p>
+  {% endif %}
 </div>
 {% endfor %}
 {% else %}

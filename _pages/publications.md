@@ -31,18 +31,29 @@ description: "Comprehensive academic publications, books, policy papers, and res
 
 <div class="grid">
 {% for pub in site.data.publications.all_publications limit:12 %}
-  <div class="archive__item" style="margin-bottom: 1.5em; padding: 1em; border: 1px solid #e0e0e0; border-radius: 8px; background: #fafafa;">
+  <div class="archive__item" style="margin-bottom: 1.5em; padding: 1.5em; border: 1px solid #e0e0e0; border-radius: 8px; background: #fafafa; transition: transform 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
     <article>
       <div class="archive__item-body">
-        <h3 class="archive__item-title" style="margin-top: 0; font-size: 1.1em;">
-          <a href="{{ pub.url }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf" style="color: #d32f2f;"></i> {{ pub.title }}</a>
+        <h3 class="archive__item-title" style="margin-top: 0; font-size: 1.2em;">
+          <a href="{{ pub.url }}" target="_blank" rel="noopener" style="text-decoration: none; color: #333;"><i class="fas fa-file-pdf" style="color: #d32f2f;"></i> {{ pub.title }}</a>
         </h3>
-        <p class="archive__item-excerpt" style="margin: 0.5em 0;">
-          <i class="fas fa-user"></i> <em>{{ pub.authors | join: ", " }}</em>
+        
+        <p class="archive__item-excerpt" style="margin: 0.5em 0; color: #666;">
+          <small><i class="fas fa-user" style="color: #555;"></i> <em>{{ pub.authors | join: ", " }}</em> | <i class="fas fa-folder" style="color: #555;"></i> <strong>{{ pub.section }}</strong></small>
         </p>
-        <p style="margin: 0;">
-          <small><i class="fas fa-folder"></i> <strong>{{ pub.section }}</strong></small>
-        </p>
+
+        {% if pub.abstract %}
+        <div style="margin-top: 0.8em; font-size: 0.95em; line-height: 1.5; color: #444; background: #fff; padding: 0.8em; border-left: 3px solid #2196f3; border-radius: 0 4px 4px 0;">
+            <strong>Abstract:</strong> {{ pub.abstract }}
+        </div>
+        {% endif %}
+
+        {% if pub.key_insight %}
+        <div style="margin-top: 0.5em; font-size: 0.9em; color: #2e7d32;">
+            <i class="fas fa-lightbulb"></i> <strong>Key Insight:</strong> {{ pub.key_insight }}
+        </div>
+        {% endif %}
+
       </div>
     </article>
   </div>
