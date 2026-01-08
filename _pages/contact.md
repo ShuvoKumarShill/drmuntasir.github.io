@@ -22,7 +22,7 @@ Segunbagicha, Dhaka-1000, Bangladesh
 ## 📧 Email & Digital Channels
 
 *   **Official:** [syedmuntasir@mofa.gov.bd](mailto:syedmuntasir@mofa.gov.bd)
-*   **Academic:** [research@drmuntasir.github.io](mailto:syedmuntasir@mofa.gov.bd)
+  
 
 <div class="notice--info">
   <strong><i class="fas fa-shield-alt"></i> Verification Note:</strong> Official government correspondence should be directed to the .gov.bd address.
